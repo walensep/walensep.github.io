@@ -7,7 +7,7 @@ function main() {
 	$('#btnTraduzir').on('click', function() {
 		traduzir = $('#txtTraduzir').val().toUpperCase();
 		$('#txtTraduzir').val(traduzir);
-		traduzido = traduzido.replace(/ACABOU/g,"ACOBOU").replace(/PALMEIRAS/g, "SEM MUNDIAL").replace(/CORINTHIANS/g,"GALINHADA").replace(/SANTOS/g,"VIÚVAS DO PELÉ").replace(/SÃO PAULO/g,"BAMBIS");
+		traduzido = traduzir.replace(/ACABOU/g,"ACOBOU").replace(/PALMEIRAS/g, "SEM MUNDIAL").replace(/CORINTHIANS/g,"GALINHADA").replace(/SANTOS/g,"VIÚVAS DO PELÉ").replace(/SÃO PAULO/g,"BAMBIS");
 		traduzido = traduzido.replace(/O\s/g, "U ");
 		traduzido = traduzido.replace(/NAMORADO/g, "DOLLYNALDO").replace(/NAMORADA/g, "DOLLYNETE").replace(/AVÔ/g, "DOLLYVO").replace(/AVÓ/g, "DOLLYAVO").replace(/PAI/g, "DOLLYPAE").replace(/MÃE/g, "DOLLYMAIN");
 		traduzido = traduzido.replace(/LH/g, "LI").replace(/Ç/g,"S").replace(/SS/g, "Ç").replace(/ÃO/g,"AUM").replace(/ÃE/g,"AIN").replace(/Ó/g,"OH");
