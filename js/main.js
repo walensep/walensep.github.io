@@ -4,8 +4,8 @@ function main() {
 	
 	$('#txtTraduzido').attr('readonly', true);
 	
-	$('#txtTraduzir').keyup(function(){
-    		this.value = this.value.toUpperCase();
+	$('input[type=text]').val (function () {
+    		return this.value.toUpperCase();
 	});
 	
 	$('#btnTraduzir').on('click', function() {
