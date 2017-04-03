@@ -7,6 +7,14 @@
     <link rel="stylesheet" type="text/css" href="Styles/style.css">
   </head>
   <body>
+	<script>(function(d, s, id) {
+  	var js, fjs = d.getElementsByTagName(s)[0];
+  	if (d.getElementById(id)) return;
+  	js = d.createElement(s); js.id = id;
+  	js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+  	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
   	<div class="container">
   		<h1>Aprendendo Dollynez</h1>
 		<textarea name="txtTraduzir" id="txtTraduzir" cols="40" rows="5"></textarea>
@@ -34,13 +42,6 @@
 	<script src="http://image.lomadee.com/js/ad_lomadee.js" type="text/javascript" language="javascript"></script>
 	<!-- LOMADEE - END -->
 	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 	  </div>
   </body>
 </html>
