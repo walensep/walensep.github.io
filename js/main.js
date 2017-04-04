@@ -19,7 +19,7 @@ function main() {
 		traduzido = traduzido.replace(/ÃO/g,"AUM").replace(/O\s/g, "U ").replace(/E\s/g, "I ").replace(/Z\s/g, "S ").replace(/É\s/g, "EH ").replace(/M\s/g, "N ").replace(/L\s/g, "U ").replace(/GE/g, "JE").replace(/AR\s/g, "Á ").replace(/ÊS\s/g, "EIZ ").replace(/ÓS\s/g, "OIZ ");
 		traduzido = traduzido.replace(/CU\s/g,"COOL ").replace(/CÚ\s/g,"COOL ").replace(/COCA/, "RATO");
 		traduzido = traduzido.replace(/COMER/g,"COMAR").replace(/DIZER/g,"DIGAR").replace(/GAY/g, "BUMBUM GULOSO");
-		traduzido = traduzido.replace(/ESCREVER/g, "ESCREVINHAR").replace(/VAGABUNDA/g, "GABUNDA");
+		traduzido = traduzido.replace(/ESCREVER/g, "ESCREVINHAR").replace(/VAGABUNDA/g, "GABUNDA").replace(/VOCÊ/g,"VUSSÊ").replace(/VC/g,"SUNSSÊ");
 		traduzido = traduzido.replace(/O1/g,"O").replace(/Ó1/g, "Ó").replace(/Ô1/g, "Ô").replace(/É1/g, "É").replace(/E1/g,"E").replace(/AR1/g, "AR");
 		$('#txtTraduzido').val(traduzido);	
 	});
