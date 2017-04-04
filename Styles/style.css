@@ -18,10 +18,6 @@ div.container {
 	align-self: center;
 	background: url('../img/fundo.jpg') center center;
 	border-radius: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: auto;
 }
 
 h1 {
