@@ -9,7 +9,7 @@ function main() {
 		$('#txtTraduzir').val(traduzir);
 		traduzido = traduzir.replace(/ACABOU/g,"ACOBOU").replace(/PALMEIRAS/g, "SEM MUNDIAL").replace(/CORINTHIANS/g,"GALINHADA").replace(/SANTOS/g,"VIÚVAS DO PELÉ").replace(/SÃO PAULO/g,"BAMBIS");
 		traduzido = traduzido.replace(/DORMIR/g, "DURMAR").replace(/ADOLESCENTE/g,"ADOLLYSCENTE1").replace(/LÉSBICA/g, "SAPATISTA").replace(/DISSE/g, "DIGOU").replace(/PAU/g,"GIROMBA").replace(/BUCETA/g, "DOLLYCETA");
-		traduzido = traduzido.replace(/FICAR/g, "FINCAR1").replace(/SEJA/g, "SEJE").replace(/TENHA/g, "TENHE").replace(/FAZER/g, "FASSAR").replace(/JOVEM/g, "CATARRENTO1").replace(/POBRE/g, "PROBI").replace(/FDP/g, "DAPUTA").replace(/GRÁVIDA/g, "PRENHA").replace(/MOTORISTA/g, "DIRIGISTA");
+		traduzido = traduzido.replace(/FICAR/g, "FINCAR1").replace(/SEJA/g, "SEJE1").replace(/TENHA/g, "TENHE").replace(/FAZER/g, "FASSAR").replace(/JOVEM/g, "CATARRENTO1").replace(/POBRE/g, "PROBI").replace(/FDP/g, "DAPUTA").replace(/GRÁVIDA/g, "PRENHA").replace(/MOTORISTA/g, "DIRIGISTA");
 		traduzido = traduzido.replace(/MOTOQUEIRO/g, "MOTOQUISTA");
 		traduzido = traduzido.replace(/MÃE\sSOLTEIRA/g, "DOLLYPOLTA").replace(/DROGADO/g, "ZÉ1 DROGUINHA").replace(/PEDREIRO/g, "PEDREIRISTA").replace();
 		traduzido = traduzido.replace(/GORDO/g, "DOLLYFAT").replace(/GORDA/g, "DOLLYFAT").replace(/CACHORRO/g, "PULGUENTO1").replace(/GATO/g, "DOLLYGATO").replace(/SEXO/g, "CRUZO1");
