@@ -18,7 +18,11 @@ div.container {
 	align-self: center;
 	background: url('../img/fundo.jpg') center center;
 	border-radius: 100%;
-	min-height: 700px;
+	display: flex;
+	flex-direction: column;
+	min-height: 800px;
+	justify-content: center;
+	width: 800px;
 }
 
 h1 {
