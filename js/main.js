@@ -10,7 +10,7 @@ function main() {
 		traduzido = traduzir.replace(/ACABOU/g,"ACOBOU").replace(/PALMEIRAS/g, "SEM MUNDIAL").replace(/CORINTHIANS/g,"GALINHADA").replace(/SANTOS/g,"VIÚVAS DO PELÉ").replace(/SÃO PAULO/g,"BAMBIS");
 		traduzido = traduzido.replace(/DORMIR/g, "DURMAR").replace(/ADOLESCENTE/g,"ADOLLYSCENTE1").replace(/LÉSBICA/g, "SAPATISTA").replace(/DISSE/g, "DIGOU").replace(/PAU/g,"GIROMBA").replace(/BUCETA/g, "DOLLYCETA");
 		traduzido = traduzido.replace(/FICAR/g, "FINCAR1").replace(/SEJA/g, "SEJE1").replace(/TENHA/g, "TENHE").replace(/FAZER/g, "FASSAR").replace(/JOVEM/g, "CATARRENTO1").replace(/POBRE/g, "PROBI").replace(/FDP/g, "DAPUTA").replace(/GRÁVIDA/g, "PRENHA").replace(/MOTORISTA/g, "DIRIGISTA");
-		traduzido = traduzido.replace(/MOTOQUEIRO/g, "MOTOQUISTA");
+		traduzido = traduzido.replace(/MOTOQUEIRO/g, "MOTOQUISTA").replace(/MOTOBOY/g, "MOTOQUISTA");
 		traduzido = traduzido.replace(/MÃE\sSOLTEIRA/g, "DOLLYPOLTA").replace(/DROGADO/g, "ZÉ1 DROGUINHA").replace(/PEDREIRO/g, "PEDREIRISTA").replace();
 		traduzido = traduzido.replace(/GORDO/g, "DOLLYFAT").replace(/GORDA/g, "DOLLYFAT").replace(/CACHORRO/g, "PULGUENTO1").replace(/GATO/g, "DOLLYGATO").replace(/SEXO/g, "CRUZO1");
 		traduzido = traduzido.replace(/FILHO/g, "CATARRENTO1").replace(/CRIANÇA/g, "CATARRENTO1").replace(/NAMORADO/g, "DOLLYNALDO").replace(/NAMORADA/g, "DOLLYNETE1").replace(/AVÔ/g, "DOLLYVOH").replace(/AVÓ/g, "DOLLYAVOH").replace(/PAI/g, "DOLLYPAE").replace(/MÃE/g, "DOLLYMAIN");
