@@ -13,6 +13,7 @@ function main() {
 		traduzido = traduzido.replace(/CH/g,"X").replace(/LH/g, "LI").replace(/LIA/g,"LHA").replace(/Ç/g,"S").replace(/SS/g, "Ç").replace(/ÃE/g,"AIN").replace(/Ó/g,"OH");
 		traduzido = traduzido.replace(/ÃO/g,"AUM").replace(/O\s/g, "U ").replace(/E\s/g, "I ").replace(/Z\s/g, "S ").replace(/É\s/g, "EH ").replace(/M\s/g, "N ").replace(/L\s/g, "U ").replace(/GE/g, "JE").replace(/AR\s/g, "Á ").replace(/ÊS\s/g, "EIZ ").replace(/ÓS\s/g, "OIZ ");
 		traduzido = traduzido.replace(/CU\s/g,"COOL ");
+		traduzido = traduzido.replace(/COMER/g,"COMAR").replace(/DIZER/g,"DIGAR");
 		$('#txtTraduzido').val(traduzido);	
 	});
 }
