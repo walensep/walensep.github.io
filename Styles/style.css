@@ -18,6 +18,7 @@ div.container {
 	align-self: center;
 	background: url('../img/fundo.jpg') center center;
 	border-radius: 100%;
+	min-height: 600px;
 }
 
 h1 {
