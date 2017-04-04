@@ -8,6 +8,7 @@ function main() {
 		traduzir = $('#txtTraduzir').val().toUpperCase() + " ";
 		$('#txtTraduzir').val(traduzir);
 		traduzido = traduzir.replace(/ACABOU/g,"ACOBOU").replace(/PALMEIRAS/g, "SEM MUNDIAL").replace(/CORINTHIANS/g,"GALINHADA").replace(/SANTOS/g,"VIÚVAS DO PELÉ").replace(/SÃO PAULO/g,"BAMBIS");
+		traduzido = traduzido.replace(/EVANGÉLICO/g, "DOLLYCRENTE1").replace(/TESTEMUNHA DE JEOVA/g, "DOLLYCRENTE1").replace(/CRENTE/g, "DOLLYCRENTE1");
 		traduzido = traduzido.replace(/DORMIR/g, "DURMAR").replace(/ADOLESCENTE/g,"ADOLLYSCENTE1").replace(/LÉSBICA/g, "SAPATISTA").replace(/DISSE/g, "DIGOU").replace(/PAU/g,"GIROMBA").replace(/BUCETA/g, "DOLLYCETA");
 		traduzido = traduzido.replace(/FICAR/g, "FINCAR1").replace(/SEJA/g, "SEJE1").replace(/TENHA/g, "TENHE").replace(/FAZER/g, "FASSAR").replace(/JOVEM/g, "CATARRENTO1").replace(/POBRE/g, "PROBI").replace(/FDP/g, "DAPUTA").replace(/GRÁVIDA/g, "PRENHA").replace(/MOTORISTA/g, "DIRIGISTA");
 		traduzido = traduzido.replace(/MOTOQUEIRO/g, "MOTOQUISTA").replace(/MOTOBOY/g, "MOTOQUISTA");
