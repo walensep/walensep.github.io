@@ -17,7 +17,7 @@ function main() {
 		traduzido = traduzido.replace(/FILHO/g, "CATARRENTO1").replace(/CRIANÇA/g, "CATARRENTO1").replace(/NAMORADO/g, "DOLLYNALDO").replace(/NAMORADA/g, "DOLLYNETE1").replace(/AVÔ/g, "DOLLYVÔ1").replace(/AVÓ/g, "DOLLYVÓ1").replace(/PAI/g, "DOLLYPAI").replace(/MÃE/g, "DOLLYMAIN");
 		traduzido = traduzido.replace(/CH/g,"X").replace(/LH/g, "LI").replace(/LIA/g,"LHA").replace(/Ç/g,"S").replace(/SS/g, "Ç").replace(/ÃE/g,"AIN").replace(/Ó/g,"OH");
 		traduzido = traduzido.replace(/ÃO/g,"AUM").replace(/O\s/g, "U ").replace(/E\s/g, "I ").replace(/Z\s/g, "S ").replace(/É\s/g, "EH ").replace(/M\s/g, "N ").replace(/L\s/g, "U ").replace(/GE/g, "JE").replace(/AR\s/g, "Á ").replace(/ÊS\s/g, "EIZ ").replace(/ÓS\s/g, "OIZ ");
-		traduzido = traduzido.replace(/CU\s/g,"COOL ").replace(/COCA/, "RATO");
+		traduzido = traduzido.replace(/CU\s/g,"COOL ").replace(/CÚ\s/g,"COOL ").replace(/COCA/, "RATO");
 		traduzido = traduzido.replace(/COMER/g,"COMAR").replace(/DIZER/g,"DIGAR").replace(/GAY/g, "BUMBUM GULOSO");
 		traduzido = traduzido.replace(/ESCREVER/g, "ESCREVINHAR").replace(/VAGABUNDA/g, "GABUNDA");
 		traduzido = traduzido.replace(/O1/g,"O").replace(/Ó1/g, "Ó").replace(/Ô1/g, "Ô").replace(/É1/g, "É").replace(/E1/g,"E").replace(/AR1/g, "AR");
