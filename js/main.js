@@ -11,7 +11,7 @@ function main() {
 		traduzido = traduzido.replace(/GORDO/g, "DOLLYFAT").replace(/GORDA/g, "DOLLYFAT").replace(/CACHORRO/g, "PULGUENTo").replace(/GATO/g, "DOLLYGATO").replace(/SEXO/g, "CRUZo");
 		traduzido = traduzido.replace(/FILHO/g, "CATARRENTO").replace(/CRIANÇA/g, "CATARRENTO").replace(/NAMORADO/g, "DOLLYNALDO").replace(/NAMORADA/g, "DOLLYNETE").replace(/AVÔ/g, "DOLLYVOH").replace(/AVÓ/g, "DOLLYAVOH").replace(/PAI/g, "DOLLYPAE").replace(/MÃE/g, "DOLLYMAIN");
 		traduzido = traduzido.replace(/CH/g,"X").replace(/LH/g, "LI").replace(/LIA/g,"LHA").replace(/Ç/g,"S").replace(/SS/g, "Ç").replace(/ÃE/g,"AIN").replace(/Ó/g,"OH");
-		traduzido = traduzido.replace(/ÃO/g,"AUM").replace(/O\s/g, "U ").replace(/E\s/g, "I ").replace(/Z\s/g, "S ").replace(/É\s/g, "EH ").replace(/M\s/g, "N ").replace(/L\s/g, "U ").replace(/GE/g, "JE").replace(/AR\s/g, "Á ").replace(/ÊS\s/g, "EIZ ").replace(/ÓS\s/g, "OIZ ");
+		traduzido = traduzido.replace(/ÃO/g,"AUM").replace(/o\s/g, "U ").replace(/E\s/g, "I ").replace(/Z\s/g, "S ").replace(/É\s/g, "EH ").replace(/M\s/g, "N ").replace(/L\s/g, "U ").replace(/GE/g, "JE").replace(/AR\s/g, "Á ").replace(/ÊS\s/g, "EIZ ").replace(/ÓS\s/g, "OIZ ");
 		traduzido = traduzido.replace(/CU\s/g,"COOL ");
 		traduzido = traduzido.replace(/COMER/g,"COMAR").replace(/DIZER/g,"DIGAR");
 		traduzido = traduzido.toUpperCase();
