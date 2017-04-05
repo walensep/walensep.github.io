@@ -9,7 +9,7 @@ function main() {
 		$('#txtTraduzir').val(traduzir);
 		traduzido = traduzir.replace(/ACABOU/g,"ACOBOU").replace(/PALMEIRAS/g, "SEM MUNDIAL").replace(/CORINTHIANS/g,"GALINHADA").replace(/SANTOS/g,"VIÚVAS DO PELÉ").replace(/SÃO PAULO/g,"BAMBIS");
 		traduzido = traduzido.replace(/EVANGÉLICO/g, "DOLLYCRENTE1").replace(/TESTEMUNHA DE JEOVÁ/g, "DOLLYCRENTE1").replace(/CRENTE/g, "DOLLYCRENTE1").replace(/MULHER/g,"MOLIER").replace(/HOMEM/g,"OMI").replace(/PARAÍSO/g,"DOLLYLÂNDIA");
-		traduzido = traduzido.replace(/DORMIR/g, "DURMAR").replace(/ADOLESCENTE/g,"ADOLLYSCENTE1").replace(/LÉSBICA/g, "SAPATISTA").replace(/DISSE/g, "DIGOU").replace(/PAU/g,"GIROMBA").replace(/BUCETA/g, "DOLLYCETA")..replace(/USE/g,"USEIE");
+		traduzido = traduzido.replace(/DORMIR/g, "DURMAR").replace(/ADOLESCENTE/g,"ADOLLYSCENTE1").replace(/LÉSBICA/g, "SAPATISTA").replace(/DISSE/g, "DIGOU").replace(/PAU/g,"GIROMBA").replace(/BUCETA/g, "DOLLYCETA").replace(/USE/g,"USEIE");
 		traduzido = traduzido.replace(/FICAR/g, "FINCAR1").replace(/SEJA/g, "SEJE1").replace(/TENHA/g, "TENHE").replace(/FAZER/g, "FASSAR").replace(/JOVEM/g, "CATARRENTO1").replace(/POBRE/g, "PROBI").replace(/FDP/g, "DAPUTA").replace(/GRÁVIDA/g, "PRENHA").replace(/MOTORISTA/g, "DIRIGISTA");
 		traduzido = traduzido.replace(/MOTOQUEIRO/g, "MOTOQUISTA").replace(/MOTOBOY/g, "MOTOQUISTA").replace(/WHATSAPP/g,"UATISAP").replace(/WHATS/g,"UATISAP").replace(/FIQUE/g,"FIQUEIE").replace(/TORÇA/g,"TORCEIE");
 		traduzido = traduzido.replace(/MÃE\sSOLTEIRA/g, "DOLLYPOLTA").replace(/DROGADO/g, "ZÉ1 DROGUINHA").replace(/PEDREIRO/g, "PEDREIRISTA").replace();
