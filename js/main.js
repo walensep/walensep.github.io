@@ -12,7 +12,7 @@ function main() {
 		traduzido = traduzido.replace(/DORMIR/g, "DURMAR").replace(/ADOLESCENTE/g,"ADOLLYSCENTE1").replace(/LÉSBICA/g, "SAPATISTA").replace(/DISSE/g, "DIGOU").replace(/PAU/g,"GIROMBA").replace(/BUCETA/g, "DOLLYCETA").replace(/USE/g,"USEIE");
 		traduzido = traduzido.replace(/FICAR/g, "FINCAR1").replace(/SEJA/g, "SEJE1").replace(/TENHA/g, "TENHE").replace(/FAZER/g, "FASSAR").replace(/JOVEM/g, "CATARRENTO1").replace(/POBRE/g, "PROBI").replace(/FDP/g, "DAPUTA").replace(/GRÁVIDA/g, "PRENHA").replace(/MOTORISTA/g, "DIRIGISTA");
 		traduzido = traduzido.replace(/MOTOQUEIRO/g, "MOTOQUISTA").replace(/MOTOBOY/g, "MOTOQUISTA").replace(/WHATSAPP/g,"UATISAP").replace(/WHATS/g,"UATISAP").replace(/FIQUE/g,"FIQUEIE").replace(/TORÇA/g,"TORCEIE");
-		traduzido = traduzido.replace(/MÃE\sSOLTEIRA/g, "DOLLYPOLTA").replace(/DROGADO/g, "ZÉ1 DROGUINHA").replace(/PEDREIRO/g, "PEDREIRISTA").replace();
+		traduzido = traduzido.replace(/MÃE\sSOLTEIRA/g, "DOLLYPOLTA").replace(/DROGADO/g, "ZÉ1 DROGUINHA").replace(/PEDREIRO/g, "PEDREIRISTA");
 		traduzido = traduzido.replace(/GORDO/g, "DOLLYFAT").replace(/GORDA/g, "DOLLYFAT").replace(/CACHORRO/g, "PULGUENTO1").replace(/GATO/g, "DOLLYGATO").replace(/SEXO/g, "CRUZO1");
 		traduzido = traduzido.replace(/FILHO/g, "CATARRENTO1").replace(/CRIANÇA/g, "CATARRENTO1").replace(/NAMORADO/g, "DOLLYNALDO").replace(/NAMORADA/g, "DOLLYNETE1").replace(/AVÔ/g, "DOLLYVÔ1").replace(/AVÓ/g, "DOLLYVÓ1").replace(/PAI/g, "DOLLYPAI").replace(/MÃE/g, "DOLLYMAIN");
 		traduzido = traduzido.replace(/CH/g,"X").replace(/LH/g, "LI").replace(/LIA/g,"LHA").replace(/Ç/g,"S").replace(/SS/g, "Ç").replace(/ÃE/g,"AIN").replace(/Ó/g,"OH").replace(/SE/g,"ÇE");
